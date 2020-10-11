@@ -37,6 +37,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.7'
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'pry'
+  gem 'actionpack', '~> 5.0', '>= 5.0.7.1'
 end
 
 group :development do
